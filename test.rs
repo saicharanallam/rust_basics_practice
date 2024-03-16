@@ -46,7 +46,7 @@ fn main() {
 
     println!("Compare points:");
     println!("Display: {}", point);
-    println!("Debug: {:?}", point);
+
 
     // Error. Both `Debug` and `Display` were implemented, but `{:b}`
     // requires `fmt::Binary` to be implemented. This will not work.
